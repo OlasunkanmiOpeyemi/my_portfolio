@@ -17,6 +17,12 @@
       rel="stylesheet"
       href="http://fonts.googleapis.com/icon?family=Material+Icons+Sharp"
     />
+     <!-- ===================== SWIPER JS ======================== -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+ 
   </head>
 
   <body>
@@ -498,14 +504,128 @@
 
     <section class="testimonials">
       <h1>Testimonials</h1>
-      <div class="container">
-        <div class="carousel">
+      <div class="container swippper">
+        <div class="carousel swiper-wrapper">
+          <div class="testimonial swiper-slide">
+            <div class="head">
+              <div class="profile-area">
+                <div class="avatar">
+                  <img src="images/WhatsApp Image 2023-04-28 at 18.46.43 (2).jpg">
+                </div>
+                <div class="info">
+                  <h4>
+                    Olasunkanmi Opeyemi
+                  </h4>
+                  <small>Web Developer</small>
+                </div>
+              </div>
+              <div class="stars">
+                <span class="material-icons-sharp">star_rate</span>
+                <span class="material-icons-sharp">star_rate</span>
+                <span class="material-icons-sharp">star_rate</span>
+                <span class="material-icons-sharp">star_rate</span>
+                <span class="material-icons-sharp">star_rate</span>
+              </div>
+            </div>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum ex alias vel assumenda autem rem esse quis eum sint tempora?</p>
+          </div>
+          <!-- END OF TESTIMONIAL -->
 
+          <div class="testimonial swiper-slide">
+            <div class="head">
+              <div class="profile-area">
+                <div class="avatar">
+                  <img src="images/WhatsApp Image 2023-04-28 at 18.46.43 (2).jpg">
+                </div>
+                <div class="info">
+                  <h4>
+                    Olasunkanmi Opeyemi
+                  </h4>
+                  <small>Web Developer</small>
+                </div>
+              </div>
+              <div class="stars">
+                <span class="material-icons-sharp">star_rate</span>
+                <span class="material-icons-sharp">star_rate</span>
+                <span class="material-icons-sharp">star_rate</span>
+                <span class="material-icons-sharp">star_rate</span>
+                <span class="material-icons-sharp">star_rate</span>
+              </div>
+            </div>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum ex alias vel assumenda autem rem esse quis eum sint tempora?</p>
+          </div>
+          <!-- END OF TESTIMONIAL -->
+
+          <div class="testimonial swiper-slide">
+            <div class="head">
+              <div class="profile-area">
+                <div class="avatar">
+                  <img src="images/WhatsApp Image 2023-04-28 at 18.46.43 (2).jpg">
+                </div>
+                <div class="info">
+                  <h4>
+                    Olasunkanmi Opeyemi
+                  </h4>
+                  <small>Web Developer</small>
+                </div>
+              </div>
+              <div class="stars">
+                <span class="material-icons-sharp">star_rate</span>
+                <span class="material-icons-sharp">star_rate</span>
+                <span class="material-icons-sharp">star_rate</span>
+                <span class="material-icons-sharp">star_rate</span>
+                <span class="material-icons-sharp">star_rate</span>
+              </div>
+            </div>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum ex alias vel assumenda autem rem esse quis eum sint tempora?</p>
+          </div>
+          <!-- END OF TESTIMONIAL -->
+
+          <div class="testimonial swiper-slide">
+            <div class="head">
+              <div class="profile-area">
+                <div class="avatar">
+                  <img src="images/WhatsApp Image 2023-04-28 at 18.46.43 (2).jpg">
+                </div>
+                <div class="info">
+                  <h4>
+                    Olasunkanmi Opeyemi
+                  </h4>
+                  <small>Web Developer</small>
+                </div>
+              </div>
+              <div class="stars">
+                <span class="material-icons-sharp">star_rate</span>
+                <span class="material-icons-sharp">star_rate</span>
+                <span class="material-icons-sharp">star_rate</span>
+                <span class="material-icons-sharp">star_rate</span>
+                <span class="material-icons-sharp">star_rate</span>
+              </div>
+            </div>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum ex alias vel assumenda autem rem esse quis eum sint tempora?</p>
+          </div>
         </div>
-       </div>
+      </div>
+       <div class="swiper-pagination"></div>
     </section>
 
+    <!--==================== END OF TESTIMONIAL ====================-->
 
+    <section class="contact" id="contact">
+      <div class="overlay">
+        <div class="container">
+          <h1>Let's Talk!</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem ex, quo soluta illo adipisci excepturi voluptate totam error beatae suscipit?</p>
+          <form action="http://formspree.io/f/xeqnevgj" method="post">
+            <input type="text" name="Name" placeholder="Name" required>
+            <input type="email" name="Email" placeholder="Enter your Email" required>
+            <input type="text" name="Subject" placeholder="Subject" required>
+            <textarea name="Message" placeholder="Message" required></textarea>
+            <input type="submit" value="Submit" class="btn btn-primary">
+          </form>
+        </div>
+      </div>   
+     </section>
 
 
 
@@ -524,149 +644,25 @@
 
 
 
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+    <script>
+      let swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pigmentation",
+          clickable: true,
+        },
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        //when window width is 600px
+        breakpoints: {
+          600: {
+            slidesPerView: 2,
+          },
+        },
+      });
+    </script>
 
   </body>
 </html>
